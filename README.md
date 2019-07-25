@@ -66,6 +66,13 @@ nodemon -v
 1. In the folder, create a file named server.js.
 1. In the folder, open PowerShell and run npm init to generate a package.json with app information.
 
+## Optional: Host your service
+
+Running a service from your machine isn't usually the best. (Why?)
+
+To make your service available, host it on a server running 24/7 (24 hours a day, 7 days a week). 
+Explore Heroku for free, easy hosting.
+
 ## Terms
 
 - Node.js platform
