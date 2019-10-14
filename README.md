@@ -96,13 +96,14 @@ Explore Heroku for free, easy hosting.
 
 - [About Node.js](https://nodejs.org/en/about/)
 
+## Optional: Deployment
+
+Heroku will host a server-side app for free. Install the Heroku command line interface (CLI).
+On Windows, use Git Bash to execute the commands - NOT PowerShell. Add an alias for 'heroku' in addition to 'origin'.
+
+- [Heroku hosting](https://devcenter.heroku.com)
+- [Git Bash Shell for Heroku CLI](https://devcenter.heroku.com/articles/git)
+
 ## See Also
 
-- [js-console](https://github.com/profcase/js-console)
-- [js-gui](https://github.com/profcase/js-gui)
-- [js-gui-vue](https://github.com/denisecase/js-gui-vue)
-- [js-gui-storage](https://github.com/profcase/js-gui-storage)
-- [node-server](https://github.com/denisecase/node-server)
-- [node-express-app](https://github.com/denisecase/node-express-app)
-- [node-express-chat](https://github.com/denisecase/node-express-chat)
-- [node-express-mvc](https://github.com/denisecase/node-express-mvc)
+- [More App Examples](https://profcase.github.io/web-apps-list/)
