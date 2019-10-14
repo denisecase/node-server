@@ -4,7 +4,7 @@
 
 ## Links
 
-- [Demo](https://denisecase.github.io/node-server/)
+- [Demo](https://node-server-563.herokuapp.com/)
 - [Source](https://github.com/denisecase/node-server)
 
 ## Requirements
@@ -32,17 +32,16 @@ npm -v
 
 ## Start your Server
 
-Start your Server with either of these options. See the package.json for configuring npm scripts.
+Start your server. See the package.json for configuring npm scripts.
 
 ```PowerShell
 node server.js
-npm start
 ```
 
 ## Open a Browser Client
 
 1. Open a web browser.
-2. Go to the URL: <http://127.0.0.1:3001/> or <http://localhost:3001/>.
+2. Go to the URL: <http://127.0.0.1:3002/> or <http://localhost:3002/>.
 
 ## Modify and Restart
 
@@ -52,26 +51,18 @@ npm start
 
 ## Install Nodemon to enable live updates
 
-1. Install nodemon globally - this is one of the rare packages to install globally.
+1. Install nodemon locally.
 1. In your folder, open PowerShell here as Administrator, install and check the version.
 
 ```PowerShell
-npm install nodemon -g
+npm install nodemon
 nodemon -v
 ```
 
 ## Optional: Create a server from scratch
 
-1. Create a folder for server-side code.
-1. In the folder, create a file named server.js.
-1. In the folder, open PowerShell and run npm init to generate a package.json with app information.
+Create a folder for server-side code. In the folder, create a file named server.js. In the folder, open PowerShell and run npm init to generate a package.json with app information.
 
-## Optional: Host your service
-
-Running a service from your machine isn't usually the best. (Why?)
-
-To make your service available, host it on a server running 24/7 (24 hours a day, 7 days a week). 
-Explore Heroku for free, easy hosting.
 
 ## Terms
 
@@ -97,6 +88,11 @@ Explore Heroku for free, easy hosting.
 - [About Node.js](https://nodejs.org/en/about/)
 
 ## Optional: Deployment
+
+Running a service from your machine isn't usually the best. (Why?)
+
+To make your service available, host it on a server running 24/7 (24 hours a day, 7 days a week).
+Explore Heroku for free, easy hosting.
 
 Heroku will host a server-side app for free. Install the Heroku command line interface (CLI).
 On Windows, use Git Bash to execute the commands - NOT PowerShell. Add an alias for 'heroku' in addition to 'origin'.
